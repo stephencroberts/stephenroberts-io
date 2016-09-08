@@ -1,0 +1,59 @@
+@media print {
+
+  /* Hide these sections */
+  #nav-bar, 
+  #contact-section,
+  #footer {
+    display: none;
+  }
+
+  /* Force page breaks */
+  #skills-section,
+  #experience-section,
+  #education-section,
+  #volunteer-section {
+    page-break-before: always;
+  }
+
+        html, body {
+            border: 1px solid white;
+            height: 99%;
+            page-break-after: avoid;
+            page-break-before: avoid;
+        }
+        
+  body {
+    font-size: 0.8em;
+    color: black;
+    background-color: white;
+  }
+
+  .section {
+    padding: 0;
+  }
+
+  .section .container > .title {
+    color: black;
+    text-align: left !important;
+  }
+
+  .section:nth-child(even) {
+    color: black;
+    background-color: white;
+  }
+
+  #header {
+    padding: 0;
+    color: black;
+  }
+
+  #skills-section .skill {
+    position: relative;
+    margin: 5px;
+    width: 75px;
+  }
+
+  #skills-section .skill .icon {
+    filter: invert(1);
+  }
+}

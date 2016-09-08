@@ -1,0 +1,41 @@
+{
+  "name": "stephenroberts",
+  "version": "1.0.0",
+  "description": "Stephen Roberts resume website",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "webpack",
+    "start": "webpack-dev-server --host 0.0.0.0",
+    "predeploy": "webpack",
+    "deploy": "node scripts/deploy"
+  },
+  "keywords": [
+    "stephen",
+    "roberts",
+    "resume",
+    "software",
+    "engineer",
+    "developer"
+  ],
+  "author": "Stephen Roberts",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer-loader": "^3.2.0",
+    "aws-sdk": "^2.5.4",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-preset-es2015": "^6.14.0",
+    "css-loader": "^0.24.0",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "fg-loadcss": "^1.2.0",
+    "file-loader": "^0.9.0",
+    "html-loader": "^0.4.3",
+    "script-loader": "^0.7.0",
+    "style-loader": "^0.13.1",
+    "url-loader": "^0.5.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.15.1",
+    "webpack-uglify-js-plugin": "^1.1.9"
+  }
+}

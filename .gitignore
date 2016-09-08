@@ -1,0 +1,6 @@
+*sublime-project
+*sublime-workspace
+/config.json
+/dist
+/node_modules
+/public
