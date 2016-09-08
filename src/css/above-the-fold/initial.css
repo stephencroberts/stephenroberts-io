@@ -15,6 +15,13 @@ a {
   text-decoration: none;
 }
 
+a.anchor {
+  display: block;
+  position: relative;
+  top: -75px;
+  visibility: hidden;
+}
+
 p {
   margin: 20px 0;
 }

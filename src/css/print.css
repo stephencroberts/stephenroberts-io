@@ -10,6 +10,7 @@
   /* Force page breaks */
   #skills-section,
   #experience-section,
+  #experience-digitoll,
   #education-section,
   #volunteer-section {
     page-break-before: always;
@@ -23,7 +24,7 @@
         }
         
   body {
-    font-size: 0.8em;
+    font-size: 0.75em;
     color: black;
     background-color: white;
   }
