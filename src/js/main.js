@@ -64,6 +64,11 @@
 
   // Close menu when item is selected
   navMenu.addEventListener('click', (e) => {
+
+    // Ignore this event if the menu isn't "expanded"
+    if (navMenu.dataset.expanded != "true") return
+    
+    // If a nav link item was clicked, close menu
     if (e.target.classList.contains('link')) {
       closeMenu()
     }
