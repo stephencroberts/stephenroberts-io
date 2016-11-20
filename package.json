@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "prestart": "webpack",
-    "start": "webpack-dev-server --host 0.0.0.0",
+    "start": "webpack-dev-server --host 0.0.0.0 --port 8080",
     "predeploy": "webpack",
     "deploy": "node scripts/deploy"
   },
