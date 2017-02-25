@@ -4,7 +4,7 @@ AWS.config.loadFromPath('./config.json')
 var s3 = new AWS.S3()
 
 var DIST_DIR = './dist'
-var CACHE_TIME = 604800
+var CACHE_TIME = 300
 var EXPIRES_DAYS = 365
 
 // http content types
