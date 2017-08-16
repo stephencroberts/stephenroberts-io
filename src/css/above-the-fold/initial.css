@@ -110,14 +110,10 @@ p {
 }
 
 #nav-bar .container {
-  padding: 0;
-}
-
-/* Layout the avatar and menu icon in the bar */
-#nav-bar .layout-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 0;
 }
 
 #nav-bar .avatar {
@@ -145,13 +141,6 @@ p {
   width: 30px;
 }
 
-#nav-bar .menu {
-  border-top: 1px solid white;
-  list-style: none;
-  overflow: hidden;
-  height: 0;
-}
-
 #nav-bar .menu .item {
   display: block;
 }
@@ -163,8 +152,43 @@ p {
   font-size: 0.8em;
 }
 
-.nav-transition {
-  transition: height 0.5s ease;
+#nav-bar .menu-container {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  overflow: hidden;
+}
+
+#nav-bar .menu {
+  border-top: 1px solid white;
+  list-style: none;
+  background-color: rgba(44,62,80);
+}
+
+/* Reveal Menu with Pure CSS */
+
+#nav-toggle-checkbox {
+  display: none;
+}
+
+#nav-toggle-checkbox ~ .menu-container {
+  transform: translateY(0);
+  transition: transform 0.35s ease-in-out;
+}
+
+#nav-toggle-checkbox ~ .menu-container .menu {
+  transform: translateY(100%);
+  transition: transform 0.35s ease-in-out;
+}
+
+#nav-toggle-checkbox:checked ~ .menu-container {
+  transform: translateY(100%);
+}
+
+#nav-toggle-checkbox:checked ~ .menu-container .menu {
+  transform: translateY(0);
 }
 
 @media (min-width: 1000px) {
