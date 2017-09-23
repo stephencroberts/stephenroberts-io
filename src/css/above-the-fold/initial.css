@@ -179,12 +179,12 @@ p {
 }
 
 #nav-toggle-checkbox ~ .menu-container .menu {
-  transform: translateY(100%);
+  transform: translateY(99.99%);
   transition: transform 0.35s ease-in-out;
 }
 
 #nav-toggle-checkbox:checked ~ .menu-container {
-  transform: translateY(100%);
+  transform: translateY(99.99%);
 }
 
 #nav-toggle-checkbox:checked ~ .menu-container .menu {

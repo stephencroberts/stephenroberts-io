@@ -1,6 +1,7 @@
 *sublime-project
 *sublime-workspace
 /config.json
+/build
 /dist
 /node_modules
 /public
