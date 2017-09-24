@@ -15,6 +15,7 @@
     "hexo-generator-index": "^0.2.0",
     "hexo-generator-tag": "^0.2.0",
     "hexo-inline-css": "file:./hexo-inline-css",
+    "hexo-inline-images": "file:./hexo-inline-images",
     "hexo-renderer-ejs": "^0.3.0",
     "hexo-renderer-marked": "^0.3.0",
     "hexo-renderer-stylus": "^0.3.1",

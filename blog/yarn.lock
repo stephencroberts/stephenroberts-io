@@ -1542,6 +1542,9 @@ hexo-i18n@^0.2.1:
 "hexo-inline-css@file:./hexo-inline-css":
   version "1.0.0-alpha"
 
+"hexo-inline-images@file:./hexo-inline-images":
+  version "1.0.0-alpha"
+
 hexo-log@^0.1.2:
   version "0.1.3"
   resolved "https://registry.yarnpkg.com/hexo-log/-/hexo-log-0.1.3.tgz#da913f48560e7ca6c2342e66035ea8f49bbe3d58"
