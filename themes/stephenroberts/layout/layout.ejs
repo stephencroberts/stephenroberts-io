@@ -9,17 +9,16 @@
 
   <title>Stephen Roberts | Full Stack Web Engineer</title>
 
-  <!-- Loads the css into a style block, see the webpack config -->
-  ${'\u003Cstyle\u003E'+require('./css/above-the-fold/reset.css')+require('./css/above-the-fold/initial.css')+'\u003C/style\u003E'}
+  <!-- Loads the css into a style block -->
+  <link rel="stylesheet" href="css/_reset.css?__inline=true">
+  <link rel="stylesheet" href="css/_critical.styl?__inline=true">
+  <link rel="stylesheet" href="css/_fonts.styl?__inline=true">
 
   <!-- Uses loadCSS to lazy-load non-critical css -->
-  <link rel="preload" href="app.css" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="app.css"></noscript>
-  <link rel="preload" href="https://fonts.googleapis.com/css?family=Montserrat" as="style" onload="this.rel='stylesheet'">
-  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"></noscript>
-
-  <script src="app.js" charset="utf-8" async></script>
+  <link rel="preload" href="css/main.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/main.css"></noscript>
 </head>
+
 <body>
 <div id="nav-bar">
   <div class="container">
@@ -314,6 +313,10 @@
 </div> <!-- end section -->
 
 <div id="footer">Copyright &copy; 2016 Stephen Roberts</div>
+
+<script src="js/app.js" charset="utf-8" async></script>
+<script src="js/loadCSS.js?__inline=true" charset="utf-8"></script>
+<script src="js/cssrelpreload.js?__inline=true" charset="utf-8"></script>
 
 </body>
 </html>

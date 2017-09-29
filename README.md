@@ -1,13 +1,14 @@
-Stephen Roberts' Resume Website
-===============================
+stephenroberts.io
+=================
 
-## Overview
-
-The resume website is coded from scratch with HTML, CSS, and JS, using webpack to build the source and a custom script to deploy the site to S3. 
+The site is built using hexo.io with a custom template.
 
 ## Usage
 
-1. Clone the repo
-2. Run `npm install` to install dependencies
-3. Run `npm start` to start the webpack dev server
-4. Navigate to `localhost:8080` in your browser!
+```
+yarn
+yarn start
+```
+
+Navigate to `http://localhost:4000` in your browser!
+
