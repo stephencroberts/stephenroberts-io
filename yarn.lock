@@ -1491,8 +1491,8 @@ hexo-deployer-s3@^0.2.2:
     xtend "^4.0.1"
 
 hexo-filter-inline-assets@^1.1.0:
-  version "1.2.0"
-  resolved "https://registry.yarnpkg.com/hexo-filter-inline-assets/-/hexo-filter-inline-assets-1.2.0.tgz#aee100a05911b476fc25b9ca40aefd48b1848afa"
+  version "1.2.1"
+  resolved "https://registry.yarnpkg.com/hexo-filter-inline-assets/-/hexo-filter-inline-assets-1.2.1.tgz#9ede9111a9e59d1c02f261ac97890c864b98f6c3"
   dependencies:
     hexo-fs "^0.2.2"
     mime "^2.0.3"
