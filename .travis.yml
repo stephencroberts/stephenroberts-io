@@ -1,8 +1,9 @@
 language: node_js
 node_js:
-  - 8
-
+- 8
 script:
-  - yarn build
-  - yarn deploy
-
+- yarn build
+- yarn deploy
+notifications:
+  slack:
+    secure: TblLxm8GZ78WeXpUoSZRWFezmdOviEYm4nKwNpR5p7kYUZTuRJu6jh7xu3Ql9dJ+ZxZt4Oy7n0QYLM5YWrYEMJZpyFre+gYUaf/BVGKxnYu4uaGMxJdvTAO8r/hUyikJ7w5V/2GJfAFL3UmTBBzT4lt/tCkLh8PEML+wJwy/iAdBloMJAJAu9Qe/ujo2eD+ZhRZtg3CcAj1DqtU92wY+o7Pninw8Qmq1faUL43x4FJF2XHpGTSerZU1mykQZnVcgg/QGpnIPWzWe++AXvh8s/htEz16FDsIArPtA5mkX/1z2PnU6r1hhuwFCpX/+xRAUy9mskANnsVLLdhJbIPjHvayO4qnKwgp3gNqca3jXod0Tv0tfB/cE1od0ztsHV9/jqYivRmCC/Pwv7xoALZ4CzAJd9J9vK8t/flmD8rlI81GJEy8VjE4shxf0QH97i0gso9dYUbIh5OH0ytmFsalbKwSEeB4xAwLwMy4U5gjSdkFkaXW/nwiQPi1SJ8NfravCwVaoXyxySiNWSAcPzkCNKGEvBvLz+lTSDoNOMNLyG8UhGhk72tERzCkskXzjzIT8Aj7HFox5ZyDHSVDnURo0V7sth3EeBSmdiHDCiziDOtWi5doffFyZzzPjEciWQ24ksugwFRadtBghbg31EPypoa879iBZX1uKJTAC5N0wDYY=
