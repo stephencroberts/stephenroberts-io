@@ -1,0 +1,25 @@
+<div id="contact-section" class="section">
+  <a id="contact-anchor" class="anchor"></a>
+  <div class="container">
+    <h2 class="title">Contact</h2>
+
+    <!-- Container for error/success messages -->
+    <div id="contact-alert" class="alert">This is an alert</div>
+
+    <form id="contact-form">
+      <div id="contact-spinner" class="spinner">
+        <div class="background">
+          <img class="icon" alt="spinner" src="images/_spinner2x.png" />
+        </div>
+      </div>
+      <input type="text" name="name" class="form-field" placeholder="Name"  />
+      <input type="email" name="email" class="form-field" placeholder="Email"  />
+      <textarea rows="5" name="message" class="form-field" placeholder="Message" ></textarea>
+      <button type="submit" id="contact-form-submit-btn" class="submit-btn">Send</button>
+    </form>
+
+    <%- partial('socials') %>
+
+  </div> <!-- end container -->
+</div> <!-- end section -->
+

@@ -1,0 +1,15 @@
+<div id="nav-bar">
+  <div class="container">
+    <div class="avatar"><a href="#"><img alt="avatar" src="images/_avatar2x.png" /></a></div>
+    <label for="nav-toggle-checkbox" id="nav-toggle-btn" class="toggle-btn"><img alt="nav button" src="images/_menu2x.png" /></label>
+    <input id="nav-toggle-checkbox" type="checkbox" />
+    <div class="menu-container">
+      <ul id="nav-menu" class="menu">
+        <% for (item in theme.menu) { %>
+          <li class="item"><a class="link" href="<%= theme.menu[item] %>"><%= item %></a></li>
+        <% } %>
+      </ul>
+    </div>
+  </div>
+</div>
+

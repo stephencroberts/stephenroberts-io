@@ -1,0 +1,34 @@
+<% if (theme.education) { %>
+  <div id="education-section" class="section">
+    <a id="education-anchor" class="anchor"></a>
+    <div class="container">
+      <h2 class="title">Education</h2>
+      <% theme.education.forEach(function(education) { %>
+        <div class="item">
+          <h3 class="title"><%= education.institution %>,&nbsp;<span class="alt-color"><%= education.degree %></span>, <%= education.date %></h3>
+          <% if (education.memberships) { %>
+            <div class="sub-item">
+              <h4>Memberships:</h4>
+              <ul class="list">
+                <% education.memberships.forEach(function(membership) { %>
+                  <li class="list-item"><%= membership %></li>
+                <% }) %>
+              </ul>
+            </div>
+          <% } %>
+
+          <% if (education.courses) { %>
+            <div class="sub-item">
+              <h4>Notable Courses:</h4>
+              <ul class="list">
+                <% education.courses.forEach(function(course) { %>
+                  <li class="list-item"><%= course %></li>
+                <% }) %>
+              </ul>
+            </div>
+          <% } %>
+        </div>
+      <% }) %>
+    </div> <!-- end container -->
+  </div> <!-- end section -->
+<% } %>

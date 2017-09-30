@@ -1,0 +1,26 @@
+<% if (theme.skills) { %>
+<div id="skills-section" class="section">
+  <a id="skills-anchor" class="anchor"></a>
+  <div class="container">
+    <h2 class="title">Skills</h2>
+    <div class="layout-container">
+    <% for (group in theme.skills) { %>
+      <div class="group-container">
+        <h3 class="group-title"><%= group %></h3>
+          <div class="list">
+            <% for (skill in theme.skills[group]) { %>
+              <div class="skill <%= skill %>">
+                <div class="icon-container">
+                  <img class="icon" alt="<%= theme.skills[group][skill] %>" src="images/_skills/<%= skill %>2x.png" />
+                </div>
+                <div class="label"><%= theme.skills[group][skill] %></div>
+              </div>
+            <% } %>
+          </div>
+      </div>
+    <% } %>
+    </div>
+  </div> <!-- end container -->
+</div> <!-- end section -->
+<% } %>
+

@@ -1,36 +1,159 @@
-# Header
+name: Stephen Roberts
+title: Full Stack Software Engineer
+meta:
+  description: Full stack software engineer solving the world's problems one line of code at a time. HTML, CSS, JavaScript, NodeJS, AWS, serverless, microservices, craftsman.
+  keywords: full stack software engineer, web developer, javascript, html, css, aws, linux, microservices, craftsmanship, serverless, linux, continuous integration, deployments, rest api
+socials: 
+  github: https://github.com/stephencroberts/
+  facebook: https://www.facebook.com/stephencroberts/
+  twitter: https://twitter.com/StephenCRoberts/
+  googleplus: https://plus.google.com/u/0/111435975431163827155/
+
 menu:
-  Home: /
-  Archives: /archives
-rss: /atom.xml
+  Skills: "#skills-anchor"
+  Experience: "#experience-anchor"
+  Education: "#education-anchor"
+  Volunteer Work: "#volunteer-anchor"
+  References: "#references-anchor"
+  Contact: "#contact-anchor"
 
-# Content
-excerpt_link: Read More
-fancybox: true
+about:
+  summary: "Software engineering is the intersection of two of my passions: computer technology and problem-solving. I'm a self-starter, motivated to craft beautiful software that fulfills business objectives in a way that's enjoyable for both businesses and end-users. I love a challenge and am constantly learning. I have experience across many languages, platforms, and frameworks -- I'm never intimidated to tackle a new one. I believe strongly in a few core concepts:"
+  details:
+    - Business objectives/requirements should dictate the technology stack rather than making a particular tech stack try to fit all projects
+    - Software should be written with the long-term vision and goals in mind to aid in decisions about architecture, tests, documentation, and maintainability
+    - Complex problems should be broken down into smaller problems that can be more easily reasoned about and transformed into code that is more understandable and maintainable
+    - Properly designed systems and architectures create momentum as new products and features are created
 
-# Sidebar
-sidebar: right
-widgets:
-- category
-- tag
-- tagcloud
-- archive
-- recent_posts
+skills:
+  General Expertise:
+    microservices: Microservices
+    serverless: Serverless Architectures
+    devops: DevOps and Release Management
+    apis: APIs
+    web: Web Apps
+    mobile: Mobile Apps
+    performance: Performance
+  Technology:
+    javascript: JavaScript
+    ios: iOS, Objective-C, Swift
+    ruby: Ruby
+    php: PHP
+    java: Java
+    html5: HTML5
+    css: CSS, LESS
+    aws: AWS
+    document: XML, JSON
+    sql: SQL, No-SQL
+    linux: Linux
+    bash: Bash
+    c: ANSI C, C++
+    dotnet: C#, .NET
+  Tools:
+    xcode: XCode
+    photoshop: Photoshop
+    git: git
+    shell: unix shell
+    sublime: Sublime Text
+    chef: Chef
+    vagrant: Vagrant
+    jenkins: Jenkins
+    task-runners: Task Runners
+    dependency-managers: Dependency Managers
 
-# display widgets at the bottom of index pages (pagination == 2)
-index_widgets:
-# - category
-# - tagcloud
-# - archive
+experience:
+  - title: Owner
+    company: Flat9 LLC
+    date: January 2017 - Present
+    summary: Worked with clients to develop Java microservices using the Spring Boot framework for high-traffic, high-availability applications
+    details:
+      - Developed a web application using Thymeleaf for displaying report information
+      - Improved internal development tools and processes
+      - Implemented new features and bug fixes to existing applications
+  - title: Lead Full Stack Web Engineer
+    company: FIDOlab
+    date: March 2015 - October 2016
+    summary: Designed and developed full-stack web applications and mobile backends focusing on a microservices approach, serverless architectures in AWS, automation, release management, and automated testing
+    details: 
+      - Developed an entertainment web app, PluggedIn.com, in AngularJS using standard task runners, preprocessors, and automated build and delivery pipelines including unit, end-to-end, and visual tests
+      - Provisioned infrastructure with Chef
+      - Created microservices using AWS serverless resources with APIs for use in multiple web and mobile applications
+      - Developed a native iOS application in Swift with offline support, media player integration, and In-App Purchases with a custom IAP backend (built as a microservice) to deliver purchased resources to the app
+      - Migrated mobile applications from using Parse mobile BaaS to using AWS resources
+      - Worked with the team to create an agile development workflow that fit our small team and goals
+      - Helped other developers and contractors with code-review, software architecture, and backend services
+  - title: Web Developer
+    company: Focus on the Family
+    date: January 2014 - March 2015
+    summary: Developed web and mobile applications on a variety of different languages, platforms, and frameworks, working with the team to successfully complete business objectives within the given time constraints
+    details: 
+      - Developed a framework and dashboard for in-house Wordpress developers to deploy Wordpress sites to multiple environments and standardized workflow for local development, dependency management, deployments, and source control
+      - Co-developed an iOS app, focusing on integration with the backend and various 3rd party services, extending the back end (a generated Ruby on Rails app) to add custom functionality, developing parts of the iOS UI, and creating an automated deployment pipeline for the backend
+      - Added features and fixed bugs in an existing webapp built with CakePHP and BackboneJS
+      - Developed a jQuery plugin as a popup for giving campaigns including A/B testing and user data capture, implemented in Sitecore CMS using Microsoft .NET
+      - Developed minor features and changes to Sitecore CMS sites
+  - title: Owner
+    company: DigiToll Software
+    date: May 2012 - December 2015
+    details:
+      - Created and managed every aspect of a small software product company including design, development, maintenance, marketing, sales, customer service, and financials
+      - Developed extensions in PHP for Joomla! and VirtueMart with a focus on digital downloads and delivery
+  - title: Owner
+    company: Stephen Roberts LLC
+    date: February 2011 - October 2015
+    summary: Worked with clients to develop e-commerce websites, perform content migrations, and integrate with existing systems
+    details:
+      - Added e-commerce and digital download capability to an existing website built on Joomla! CMS
+      - Developed a new e-commerce website using Joomla! and VirtueMart for the sale of physical products, migrated the product catalog from the existing IBM WebSphere platform, and integrated with existing inventory and ERP systems
+      - Collaborated with marketers and designers to create another e-commerce website selling both physical and digital downloads
+  - title: Engineering Technician Assistant
+    company: University of South Alabama
+    date: September 2007 - December 2010
+    summary: 
+    details: 
+      - Computer and Lab Technician supporting 12 Computer and Technical Labs
+      - Installed software, performed system backups, and maintained over 175 computers
+      - Repaired Oscilloscopes, Power Supplies, Digital Systems, and other lab equipment
 
-# widget behavior
-archive_type: 'monthly'
-show_count: false
+education:
+  - institution: University of South Alabama
+    degree: BS in Computer Engineering
+    date: 2005-2009
+    memberships:
+      - Tau Beta Pi
+      - IEEE
+      - Eta Kappa Nu
+    courses:
+      - Computer Network Security
+      - Digital Computer System Design
+      - Electrical & Computer Engineering Design
+      - Programming Language Theory
+      - Computer Networks
+      - Embedded System Design
+      - Software Engineering Principles
+      - Wireless Networks
+      - Analog & Digital Electronics
+      - Computer Methods In ECE
+      - Microprocessors
+      - Operating Systems
+      - Data Structures
 
-# Miscellaneous
-google_analytics:
-favicon: /favicon.png
-twitter:
-google_plus:
-fb_admins:
-fb_app_id:
+volunteer:
+  - institution: One Hope Church
+    title: Musician
+    date: 2015-Present
+    details:
+      - Played keyboards and bass guitar in the band on Sundays
+  - institution: Praise Family Church
+    title: Musician, Software Developer, Computer Technician
+    date: 1998-2008
+    details:
+      - Played keyboards in the band on Sundays and Wednesdays
+      - Developed video projection software for displaying song lyrics on the wall during services
+      - Configured an internet content filter for public computers
+      - Fixed computer and networking issues
+
+references:
+  - name: Mike Ruman, Military Marketing
+    quote: When others would say ‘that’s too hard’ or ‘I’m not sure I could do that’ Stephen would respond with ‘let me think through this and put together a plan.'...Stephen rose to the occasion and did his best to make sure the projects were completed on time and met the requirements...Stephen did a great job communicating
+

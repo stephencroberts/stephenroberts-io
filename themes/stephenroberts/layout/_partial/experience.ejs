@@ -1,0 +1,19 @@
+<% if (theme.experience) { %>
+  <div id="experience-section" class="section">
+    <a id="experience-anchor" class="anchor"></a>
+    <div class="container">
+      <h2 class="title">Experience</h2>
+      <% theme.experience.forEach(function(experience) { %>
+        <div class="item">
+          <h3 class="title"><%= experience.title %>,&nbsp;<span class="alt-color"><%= experience.company %></span>; <%= experience.date %></h3>
+          <p><%= experience.summary %></p>
+          <ul class="list">
+            <% experience.details.forEach(function(detail) { %>
+              <li class="list-item"><%= detail %></li>
+            <% }) %>
+          </ul>
+        </div>
+      <% }) %>
+    </div> <!-- end container -->
+  </div> <!-- end section -->
+<% } %>

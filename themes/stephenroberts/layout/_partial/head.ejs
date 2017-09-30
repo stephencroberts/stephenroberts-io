@@ -1,0 +1,21 @@
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="<%= theme.meta.description %>">
+  <meta name="keywords" content="<%= theme.meta.keywords %>">
+  <% if (theme.socials.googleplus) { %>
+    <link rel="author" href="<%= theme.socials.googleplus %>" />
+  <% } %>
+
+  <title><%= theme.name %> | <%= theme.title %></title>
+
+  <!-- Loads the css into a style block -->
+  <link rel="stylesheet" href="css/_reset.css?__inline=true">
+  <link rel="stylesheet" href="css/_critical.css?__inline=true">
+  <link rel="stylesheet" href="css/_fonts.css?__inline=true">
+
+  <!-- Uses loadCSS to lazy-load non-critical css -->
+  <link rel="preload" href="css/main.css" as="style" onload="this.rel='stylesheet'">
+  <noscript><link rel="stylesheet" href="css/main.css"></noscript>
+</head>
+

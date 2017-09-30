@@ -1,0 +1,14 @@
+<% if (theme.references) { %>
+  <div id="references-section" class="section">
+    <a id="references-anchor" class="anchor"></a>
+    <div class="container">
+      <h2 class="title">References</h2>
+      <% theme.references.forEach(function(reference) { %>
+        <div class="item">
+          <blockquote><%= reference.quote%></blockquote>
+          <div class="indent">-- <%= reference.name %></div>
+        </div>
+      <% }) %>
+    </div> <!-- end container -->
+  </div> <!-- end section -->
+<% } %>
