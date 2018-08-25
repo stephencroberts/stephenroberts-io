@@ -18,7 +18,7 @@ menu:
   Contact: "#contact-anchor"
 
 about:
-  summary: "Software engineering is the intersection of two of my passions: computer technology and problem-solving. I'm a self-starter, motivated to craft beautiful software that fulfills business objectives in a way that's enjoyable for both businesses and end-users. I love a challenge and am constantly learning. I have experience across many languages, platforms, and frameworks -- I'm never intimidated to tackle a new one. I believe strongly in a few core concepts:"
+  summary: "Software engineering is the intersection of two of my passions: computer technology and problem-solving. I am passionate about finding and implementing the best technical solution to achieve a business objective, considering complexity, scalability, security, lifetime, budget, time, and skill set of the team. Creating a team with a healthy culture that encourages ownership, creativity, coaching/mentorship, and continual learning is essential to creating high-quality solutions. I thrive on new challenges and am constantly learning. With a wide range of experience across many languages, platforms, and frameworks and exposure to many design concepts, I'm always prepared to tackle something new. I believe strongly in a few core concepts:"
   details:
     - Business objectives/requirements should dictate the technology stack rather than making a particular tech stack try to fit all projects
     - Software should be written with the long-term vision and goals in mind to aid in decisions about architecture, tests, documentation, and maintainability
@@ -62,10 +62,30 @@ skills:
     dependency-managers: Dependency Managers
 
 experience:
-  - title: Owner
-    company: Flat9 LLC
-    date: January 2017 - Present
-    summary: Worked with clients to develop Java microservices using the Spring Boot framework for high-traffic, high-availability applications
+  - title: Principal Engineer
+    company: Sling TV, part of DISH Network
+    date: June 2017 - August 2018
+    summary: Led a large, long-term initiative to build an e-commerce cart for the main website
+    details:
+      - Led the core team to design and create the cart engine, consolidating complexity into a small amount of code, enabling a simple, modular cart
+      - Led the cart initiative with over 30 developers and QA resources, providing design direction, coaching/teaching, and collaborating with various business and technical groups to remove blockers and keep the project on track
+      - Implemented the cart engine with React/Redux, following a functional design
+      - Created a framework for a distributed frontend (micro-frontend) at runtime with JavaScript
+      - Helped create and guide a collaborative effort to create a functional React component library (UIKit)
+      - Created an automated semantic versioning framework for the UIKit, determining the next version based on analyzing code changes and visually diffing the components
+      - Created a "service templates" framework using Yeoman as the source of truth for creating/managing projects, inverting the control of distributing updates
+      - Created a dockerized testing framework for automation, supporting selenium grid, webdriver.io, cucumberjs, and newman
+      - Collaborated with DevOps to create and streamline continuous integration pipelines
+      - Helped shape the automation and process to transition from cutting releases to feature delivery
+      - Presented at community of practice meetings to further education and collaboration across teams
+      - Created a generic pluggable analytics plugin in JavaScript to abstract analytics implementations and enable more rich and robust data collection
+      - Created an nginx reverse proxy to support dynamic review environments (a different environemnt per feature branch)
+      - Created a framework for a microfrontend admin portal in React/Redux
+      - Contributed to design/vision/process discussions for the organization
+  - title: Developer
+    company: Manheim, a Cox Automotive company
+    date: January 2017 - May 2017
+    summary: Developed Java microservices using the Spring Boot framework for high-traffic, high-availability applications
     details:
       - Developed a web application using Thymeleaf for displaying report information
       - Improved internal development tools and processes
