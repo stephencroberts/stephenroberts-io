@@ -27,38 +27,39 @@ about:
 
 skills:
   General Expertise:
-    microservices: Microservices
+    microservices: Microservices and System Architectures
     serverless: Serverless Architectures
     devops: DevOps and Release Management
     apis: APIs
     web: Web Apps
     mobile: Mobile Apps
+    analytics: Analytics
     performance: Performance
   Technology:
-    javascript: JavaScript
-    ios: iOS, Objective-C, Swift
-    ruby: Ruby
-    php: PHP
-    java: Java
-    html5: HTML5
-    css: CSS, LESS
+    javascript: nodejs, ES2015
+    html: HTML5
+    css: CSS3
     aws: AWS
+    linux: UNIX, Linux
+    bash: Shell Scripting
+    ios: iOS, Objective-C, Swift
+    ruby: Ruby, Ruby on Rails
+    php: PHP, Joomla!, Wordpress
+    java: Java
     document: XML, JSON
     sql: SQL, No-SQL
-    linux: Linux
-    bash: Bash
     c: ANSI C, C++
     dotnet: C#, .NET
   Tools:
-    xcode: XCode
-    photoshop: Photoshop
-    git: git
+    editor: vim
     shell: unix shell
-    sublime: Sublime Text
-    chef: Chef
-    vagrant: Vagrant
-    jenkins: Jenkins
-    task-runners: Task Runners
+    vcs: git
+    ios: XCode
+    graphics: Photoshop
+    automation: Terraform, Chef, CloudFormation
+    vm: Vagrant
+    ci: GitLab CI, Jenkins, Travis CI
+    task-runners: Webpack
     dependency-managers: Dependency Managers
 
 experience:
