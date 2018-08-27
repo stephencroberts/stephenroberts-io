@@ -215,3 +215,134 @@ blockquote::after {
   font-size: 0.8em;
   text-align: center;
 }
+
+/**
+ * print
+ */
+
+@media print {
+  body {
+    color: black;
+    line-height: 1.2em;
+    font-size: 0.8em;
+  }
+
+  .print {
+    display: block;
+  }
+
+  .section {
+    font-size: 0.8rem;
+    page-break-inside: avoid;
+    padding: 0;
+  }
+
+  .section p,
+  .section ul {
+    margin: 0;
+  }
+
+  .section:nth-child(even) {
+    background-color: white;
+    color: black;
+  }
+
+  .section:nth-child(even) .item .alt-color {
+    color: #246ab4;
+  }
+
+  .section .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .section .item {
+    margin-bottom: 20px;
+  }
+
+  .section .container > .title {
+    margin: 0 0 5px 0;
+    padding-bottom: 10px;
+    font-size: 1.2rem;
+    text-align: left;
+    border-bottom: 3px solid #246ab4;
+  }
+
+  .list-item {
+    margin: 10px 0 0 40px;
+  }
+
+  #nav-bar {
+    display: none;
+  }
+
+  #header {
+    color: black;
+    background: white;
+    padding: 0;
+  }
+
+  #header .container {
+    padding-bottom: 0;
+  }
+
+  #header .title {
+    margin: 0;
+    padding: 0;
+    font-size: 2rem;
+  }
+
+  #header .subtitle {
+    display: none;
+  }
+
+  #skills-section .layout-container {
+    justify-content: flex-start;
+    flex-direction: row;
+  }
+
+  #skills-section .group-container {
+    margin-right: 10px;
+    padding-right: 10px;
+    border-right: 1px solid #246ab4;
+  }
+
+  #skills-section .group-container:last-child {
+    margin-right: 0;
+    padding-right: 0;
+    border-right: none;
+  }
+
+  #skills-section .skill .icon-container {
+    display: none;
+  }
+
+  #skills-section .group-title {
+    font-weight: bold;
+    font-size: 1rem;
+  }
+
+  #skills-section .list {
+    display: block;
+  }
+
+  #skills-section .skill {
+    margin: 0;
+    width: auto;
+    font-size: 0.8rem;
+    text-align: left;
+  }
+
+  #references-section .item {
+    display: none;
+  }
+
+  #contact-section {
+    display: none;
+  }
+
+  #footer {
+    display: none;
+  }
+}
+
