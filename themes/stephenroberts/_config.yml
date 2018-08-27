@@ -13,7 +13,7 @@ menu:
   Skills: "#skills-anchor"
   Experience: "#experience-anchor"
   Education: "#education-anchor"
-  Volunteer Work: "#volunteer-anchor"
+  Environment: "#environment-anchor"
   References: "#references-anchor"
   Contact: "#contact-anchor"
 
@@ -159,20 +159,9 @@ education:
       - Operating Systems
       - Data Structures
 
-volunteer:
-  - institution: One Hope Church
-    title: Musician
-    date: 2015-Present
-    details:
-      - Played keyboards and bass guitar in the band on Sundays
-  - institution: Praise Family Church
-    title: Musician, Software Developer, Computer Technician
-    date: 1998-2008
-    details:
-      - Played keyboards in the band on Sundays and Wednesdays
-      - Developed video projection software for displaying song lyrics on the wall during services
-      - Configured an internet content filter for public computers
-      - Fixed computer and networking issues
+environment:
+  tools: iterm2 + tmux + vim
+  dotfiles: https://github.com/stephencroberts/dotfiles
 
 references:
   - name: Mike Ruman, Military Marketing

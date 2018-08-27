@@ -54,6 +54,11 @@ p {
 .section:nth-child(odd) {
   background-color: white;
 }
+
+.section:nth-child(odd) a {
+  color: #246ab4;
+}
+
 .section:nth-child(even) {
   background-color: #246ab4;
   color: white;

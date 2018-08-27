@@ -152,6 +152,10 @@ blockquote::after {
   }
 }
 
+#environment-section .container {
+  text-align: center;
+}
+
 #socials {
   display: flex;
   justify-content: space-around;

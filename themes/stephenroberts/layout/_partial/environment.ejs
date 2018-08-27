@@ -1,0 +1,11 @@
+<% if (theme.environment) { %>
+  <div id="environment-section" class="section">
+    <a id="environment-anchor" class="anchor"></a>
+    <div class="container">
+      <h2 class="title">Environment</h2>
+      <p><%= theme.environment.tools %></p>
+      <p>Check out my dotfiles:&nbsp;<a href="<%= theme.environment.dotfiles %>"
+      target="_blank"><%= theme.environment.dotfiles %></a></p>
+    </div> <!-- end container -->
+  </div> <!-- end section -->
+<% } %>
