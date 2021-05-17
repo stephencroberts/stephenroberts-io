@@ -3,7 +3,7 @@ title: Full Stack Software Engineer
 meta:
   description: Full stack software engineer solving the world's problems one line of code at a time. HTML, CSS, JavaScript, NodeJS, AWS, serverless, microservices, craftsman.
   keywords: full stack software engineer, web developer, javascript, html, css, aws, linux, microservices, craftsmanship, serverless, linux, continuous integration, deployments, rest api
-socials: 
+socials:
   github: https://github.com/stephencroberts/
   facebook: https://www.facebook.com/stephencroberts/
   twitter: https://twitter.com/StephenCRoberts/
@@ -63,6 +63,20 @@ skills:
     dependency-managers: Dependency Managers
 
 experience:
+  - title: DevOps Engineer
+    company: DaVita
+    date: January 2019 - Present
+    summary: Part of a transforational engineering team focused on helping the organization adopt engineering practices through modern tools, principles, and techniques
+    details:
+      - Coached and mentored teammates to help the organization transition to the Google Cloud Platform
+      - Consulted with other teams to aid in software and system design in the cloud
+      - Developed the core automation for deploying infrastructure-as-code with Terraform
+      - Created tooling to improve automation around terraform using a variety of shell scripting, jq, and golang
+      - Deployed core shared services critical to developing and operating software securely such as GitLab, Vault, and Artifactory
+      - Developed Google Cloud Functions as supplemental tooling around cloud automation
+      - Aided in deploying Google Kubernetes Engine using terraform
+      - Deployed OpenFaas and functions on-premises, demonstrating a serverless approach to on-premises automation
+      - Demonstrated insfrastructure-as-code on-premises using terraform with VMware vSphere
   - title: Principal Engineer
     company: Sling TV, part of DISH Network
     date: June 2017 - August 2018
@@ -95,7 +109,7 @@ experience:
     company: FIDOlab
     date: March 2015 - October 2016
     summary: Designed and developed full-stack web applications and mobile backends focusing on a microservices approach, serverless architectures in AWS, automation, release management, and automated testing
-    details: 
+    details:
       - Developed an entertainment web app, PluggedIn.com, in AngularJS using standard task runners, preprocessors, and automated build and delivery pipelines including unit, end-to-end, and visual tests
       - Provisioned infrastructure with Chef
       - Created microservices using AWS serverless resources with APIs for use in multiple web and mobile applications
@@ -107,7 +121,7 @@ experience:
     company: Focus on the Family
     date: January 2014 - March 2015
     summary: Developed web and mobile applications on a variety of different languages, platforms, and frameworks, working with the team to successfully complete business objectives within the given time constraints
-    details: 
+    details:
       - Developed a framework and dashboard for in-house Wordpress developers to deploy Wordpress sites to multiple environments and standardized workflow for local development, dependency management, deployments, and source control
       - Co-developed an iOS app, focusing on integration with the backend and various 3rd party services, extending the back end (a generated Ruby on Rails app) to add custom functionality, developing parts of the iOS UI, and creating an automated deployment pipeline for the backend
       - Added features and fixed bugs in an existing webapp built with CakePHP and BackboneJS
@@ -130,8 +144,8 @@ experience:
   - title: Engineering Technician Assistant
     company: University of South Alabama
     date: September 2007 - December 2010
-    summary: 
-    details: 
+    summary:
+    details:
       - Computer and Lab Technician supporting 12 Computer and Technical Labs
       - Installed software, performed system backups, and maintained over 175 computers
       - Repaired Oscilloscopes, Power Supplies, Digital Systems, and other lab equipment
