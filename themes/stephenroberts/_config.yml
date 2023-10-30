@@ -63,9 +63,23 @@ skills:
     dependency-managers: Dependency Managers
 
 experience:
+  - title: Founding Principal Engineer
+    company: AudiencePlus
+    date: April 2022 - Present
+    summary: Executed on the company vision to bring a new product to market with innovative technology
+    details:
+      - Deployed initial infrastructure, automation, and tooling to support modern software development
+      - Participated in product design and development discussions
+      - Created a novel approach for developing micro-frontends
+      - Developed and deployed the company's own media property using our micro-frontend (https://www.audienceplus.com/discover)
+      - Helped design and develop a distributed graph database
+      - Developed a content import and onboarding process for customers
+      - Successfully onboarded customers who launched their own media properties using our product
+      - Helped develop and launch the product for customers to manage their own media properties
+      - Ensured low operating costs with high availability
   - title: DevOps Engineer
     company: DaVita
-    date: January 2019 - Present
+    date: January 2019 - April 2022
     summary: Part of a transformational engineering team focused on helping the organization adopt engineering practices through modern tools, principles, and techniques
     details:
       - Coached and mentored teammates to help the organization transition to the Google Cloud Platform
@@ -94,7 +108,7 @@ experience:
       - Helped shape the automation and process to transition from cutting releases to feature delivery
       - Presented at community of practice meetings to further education and collaboration across teams
       - Created a generic pluggable analytics plugin in JavaScript to abstract analytics implementations and enable more rich and robust data collection
-      - Created an nginx reverse proxy to support dynamic review environments (a different environemnt per feature branch)
+      - Created an nginx reverse proxy to support dynamic review environments (a different environment per feature branch)
       - Created a framework for a microfrontend admin portal in React/Redux
       - Contributed to design/vision/process discussions for the organization
   - title: Developer
