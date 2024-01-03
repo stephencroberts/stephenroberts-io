@@ -1,14 +1,13 @@
 <% if (theme.about) { %>
   <div id="about-section" class="section">
     <div class="container">
-      <h2 class="title">About</h2>
-      <p><%= theme.about.summary %></p> 
+      <p><%- theme.about.summary %></p>
       <ul class="list">
         <% theme.about.details.forEach(function(detail) { %>
-          <li class="list-item"><%= detail %></li>
+          <li class="list-item"><%- detail %></li>
         <% }) %>
       </ul>
     </div> <!-- end container -->
   </div> <!-- end section -->
+  <span></span>
 <% } %>
-

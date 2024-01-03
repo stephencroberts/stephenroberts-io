@@ -2,6 +2,19 @@
  * General styles
  */
 
+/* Make sure URLs wrap */
+a,li {
+  /* These are technically the same, but use both */
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  -ms-word-break: break-all;
+  /* This is the dangerous one in WebKit, as it breaks things wherever */
+  word-break: break-all;
+  /* Instead use this non-standard one: */
+  word-break: break-word;
+}
+
 blockquote {
   font-style: italic;
 }
@@ -79,6 +92,14 @@ blockquote::after {
 /**
  * Specific styles
  */
+
+#experience-section .technologies {
+  margin-left: 40px;
+}
+
+#experience-section .technologies h4 {
+  font-weight: bold;
+}
 
 #skills-section .layout-container {
   display: flex;
@@ -192,7 +213,7 @@ blockquote::after {
 
 #contact-form .form-field:last-of-type {
   border-bottom: 1px solid #eee;
-} 
+}
 
 #contact-form .submit-btn {
   background: #246ab4;
@@ -225,6 +246,7 @@ blockquote::after {
     color: black;
     line-height: 1.2em;
     font-size: 0.8em;
+    font-weight: 400;
   }
 
   .print {
@@ -292,8 +314,12 @@ blockquote::after {
     font-size: 2rem;
   }
 
-  #header .subtitle {
-    display: none;
+  #experience-section .technologies {
+    margin-top: 1rem;
+  }
+
+  #experience-section .technologies .list-item {
+    margin: 0 0 0 40px;
   }
 
   #skills-section .layout-container {
@@ -345,4 +371,3 @@ blockquote::after {
     display: none;
   }
 }
-

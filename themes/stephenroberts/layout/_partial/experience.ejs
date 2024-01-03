@@ -12,8 +12,21 @@
               <li class="list-item"><%= detail %></li>
             <% }) %>
           </ul>
+          <% if (experience.technologies) { %>
+            <div class="technologies">
+              <h4>Technologies:</h4>
+              <ul>
+                <% Object.entries(experience.technologies ?? {}).forEach(function([category, tech]) { %>
+                  <li class="list-item">
+                    <em><%= category %>:&nbsp;</em>
+                    <%= tech %>
+                  </li>
+                <% }) %>
+              </ul>
+            </div>
+          <% } %>
         </div>
       <% }) %>
     </div> <!-- end container -->
-  </div> <!-- end section -->
+    </div> <!-- end section -->
 <% } %>

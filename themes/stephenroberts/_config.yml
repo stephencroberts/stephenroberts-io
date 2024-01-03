@@ -1,66 +1,82 @@
 name: Stephen Roberts
-title: Full Stack Software Engineer
+title: Principal Software Engineer
 meta:
   description: Full stack software engineer solving the world's problems one line of code at a time. HTML, CSS, JavaScript, NodeJS, AWS, serverless, microservices, craftsman.
   keywords: full stack software engineer, web developer, javascript, html, css, aws, linux, microservices, craftsmanship, serverless, linux, continuous integration, deployments, rest api
 socials:
-  github: https://github.com/stephencroberts/
-  facebook: https://www.facebook.com/stephencroberts/
-  twitter: https://twitter.com/StephenCRoberts/
-  googleplus: https://plus.google.com/u/0/111435975431163827155/
+  github2x.png: https://github.com/stephencroberts/
+  linkedin2x.svg: https://www.linkedin.com/in/stephenroberts/
 
 menu:
-  Skills: "#skills-anchor"
   Experience: "#experience-anchor"
+  Skills: "#skills-anchor"
   Education: "#education-anchor"
   Environment: "#environment-anchor"
   References: "#references-anchor"
   Contact: "#contact-anchor"
 
 about:
-  summary: "Software engineering is the intersection of two of my passions: computer technology and problem-solving. I am passionate about finding and implementing the best technical solution to achieve a business objective, considering complexity, scalability, security, lifetime, budget, time, and skill set of the team. Creating a team with a healthy culture that encourages ownership, creativity, coaching/mentorship, and continual learning is essential to creating high-quality solutions. I thrive on new challenges and am constantly learning. With a wide range of experience across many languages, platforms, and frameworks and exposure to many design concepts, I'm always prepared to tackle something new. I believe strongly in a few core concepts:"
+  summary: |
+    Software engineering brings together two of my passions: technology and problem-solving. I find joy in identifying and enabling the best solution for a customer using technology; unraveling the best way to manage complexity, scalability, security, software lifetime, budget, effort, and skill sets of teams as constraints. I find fulfillment in fostering a team culture that encourages ownership, creativity, coaching and mentorship, and continuous learning. I believe developing these skills is essential to solve problems with high-quality solutions. I thrive on new challenges and am constantly learning and helping others learn.
+    <br /><br />
+    My philosophy of software development is guided with a few core concepts:
   details:
-    - Business objectives/requirements should dictate the technology stack rather than making a particular tech stack try to fit all projects
-    - Software should be written with the long-term vision and goals in mind to aid in decisions about architecture, tests, documentation, and maintainability
-    - Complex problems should be broken down into smaller problems that can be more easily reasoned about and transformed into code that is more understandable and maintainable
-    - Properly designed systems and architectures create momentum as new products and features are created
+    - Business objectives and requirements should guide the technology stack rather than taking a one-size-fits-all approach
+    - Technology can enable the future when the long-term vision and goals inform decisions about architecture, tests, documentation, and maintainability
+    - Managing complexity is often about finding the right ways to break up a problem and can be the difference between success and failure, burnout or victory
+    - Momentum in software happens when systems and architecture have <em>&nbsp;just enough&nbsp;</em> design to let teams solve the strategic problems facing the business
 
 skills:
   General Expertise:
-    microservices: Microservices and System Architectures
-    serverless: Serverless Architectures
+    web: Web
     devops: DevOps and Release Management
+    cloud: Cloud Computing
+    microservices: Microservices and System Architectures
+    microfrontends: Micro-Frontends
+    serverless: Serverless Architectures
+    containers: Containers
     apis: APIs
-    web: Web Apps
-    mobile: Mobile Apps
     analytics: Analytics
     performance: Performance
+    mobile: Mobile Apps
   Technology:
-    javascript: nodejs, ES2015
-    html: HTML5
-    css: CSS3
-    aws: AWS
-    linux: UNIX, Linux
-    bash: Shell Scripting
-    ios: iOS, Objective-C, Swift
-    ruby: Ruby, Ruby on Rails
-    php: PHP, Joomla!, Wordpress
+    react: React
+    javascript: JavaScript, Node.js
+    html: HTML
+    css: CSS
+    cloud: AWS, GCP
+    erlang: Erlang
     java: Java
+    ios: iOS, Objective-C, Swift
+    ruby: Ruby
+    python: Python
+    php: PHP
+    linux: UNIX, Linux
+    shell: Shell Scripting
     document: XML, JSON
-    sql: SQL, No-SQL
+    sql: SQL, No-SQL, Graph
     c: ANSI C, C++
     dotnet: C#, .NET
   Tools:
     editor: vim
-    shell: unix shell
+    tmux: tmux
     vcs: git
-    ios: XCode
-    graphics: Photoshop
-    automation: Terraform, Chef, CloudFormation
-    vm: Vagrant
-    ci: GitLab CI, Jenkins, Travis CI
-    task-runners: Webpack
-    dependency-managers: Dependency Managers
+    shell: unix shell
+    iac:
+      name: IaC
+      tools: Terraform, Puppet, Chef, CloudFormation
+    ci:
+      name: CI
+      tools: GitLab, Jenkins, GitHub, Travis
+    virtual:
+      name: Virtualization
+      tools: Docker, Vagrant, Packer, VirtualBox
+    bundlers:
+      name: Bundlers
+      tools: Webpack, Rollup
+    databases:
+      name: Databases
+      tools: MySQL, PostgreSQL, DynamoDB, Spanner
 
 experience:
   - title: Founding Principal Engineer
@@ -68,29 +84,46 @@ experience:
     date: April 2022 - Present
     summary: Executed on the company vision to bring a new product to market with innovative technology
     details:
-      - Deployed initial infrastructure, automation, and tooling to support modern software development
-      - Participated in product design and development discussions
-      - Created a novel approach for developing micro-frontends
-      - Developed and deployed the company's own media property using our micro-frontend (https://www.audienceplus.com/discover)
-      - Helped design and develop a distributed graph database
-      - Developed a content import and onboarding process for customers
-      - Successfully onboarded customers who launched their own media properties using our product
-      - Helped develop and launch the product for customers to manage their own media properties
-      - Ensured low operating costs with high availability
+      - Contributed to business and product vision with a supporting technology plan
+      - Created an architecture to support the long-term product and business objectives, designed for low cost, massive scale, security, compliance, and high availability
+      - Led the engineering team to develop the core technology and product for customers to manage their own media properties
+      - Enabled the team to collaborate and release features safely to prod through everything-as-code with isolated environments per change across the tech stack
+      -  Designed and created a novel approach for micro-frontends for quickly and safely releasing new features across business domains, unlocking the ability to scale the engineering team and create momentum
+      - Collaborated with the team to position AudiencePlus' as thought leaders in the industry by developing AudiencePlus' own media property using our micro-frontend (https://www.audienceplus.com/discover)
+      - Designed and developed a distributed graph database to solve data ownership, compliance, privacy, cost, and scaling, and to support machine-learning
+      - Automated the customer onboarding and content import process to scale the business
+      - Supported customers who successfully launched their own media properties using our product
+    technologies:
+      Languages: JavaScript, Erlang, HCL
+      Frontend: React.js, Emotion, Storybook, Chromatic
+      Backend: Node.js, Erlang, AWS (S3, API Gateway, SQS, Lambda, Cognito, EC2)
+      Database: Custom distributed graph database
+      DevOps: Terraform, AWS, Cloudflare, GitLab CI, docker, shell
+      VCS: git
   - title: DevOps Engineer
-    company: DaVita
+    company: DaVita Kidney Care
     date: January 2019 - April 2022
-    summary: Part of a transformational engineering team focused on helping the organization adopt engineering practices through modern tools, principles, and techniques
+    summary: Part of a transformational platform engineering team focused on helping the organization adopt engineering practices through modern tools, principles, and techniques
     details:
-      - Coached and mentored teammates to help the organization transition to the Google Cloud Platform
-      - Consulted with other teams to aid in software and system design in the cloud
-      - Developed the core automation for deploying infrastructure-as-code with Terraform
-      - Created tooling to improve automation around terraform using a variety of shell scripting, jq, and golang
-      - Deployed core shared services critical to developing and operating software securely such as GitLab, Vault, and Artifactory
-      - Developed Google Cloud Functions as supplemental tooling around cloud automation
-      - Aided in deploying Google Kubernetes Engine using terraform
-      - Deployed OpenFaas and functions on-premises, demonstrating a serverless approach to on-premises automation
-      - Demonstrated insfrastructure-as-code on-premises using terraform with VMware vSphere
+      - Enabled teams to self-serve new projects in Google Cloud Platform (GCP) in as little as three days using everything-as-code (EaC) while meeting security and compliance obligations
+      - Deployed and operated a high-availability shared services platform, consisting primarily of GitLab, Artifactory, Consul, and Vault
+      - Deployed Google Kubernetes Engine as a shared service for teams using containers
+      - Consulted with teams to design cloud-native solutions
+      - Identified and removed bottlenecks for teams, continuously improving the tooling and automation for the platform
+      - Demonstrated cloud concepts, EaC, and end-to-end automation for teams working on over 400 applications running on traditional on-premises infrastructure such as VMware vSphere
+    technologies:
+      Languages: JavaScript, HCL, Shell Scripting, Golang, Python
+      Platforms: Google Cloud Platform, VMware vSphere, Kubernetes, Mesosphere (D2iQ)
+      IaC: Terraform, Puppet, custom terraform providers (Golang)
+      CI: GitLab CI, Jenkins
+      Concepts: Review (ephemeral) environments, Infrastructure-as-Code, Everything-as-Code, zero-trust system design, beyond-corp, mutual TLS, high availability/zero-downtime deployments, load balancing, auto-scaling, serverless, semantic versioning, automated testing and documentation
+      Containers: Docker, OpenFaaS, Kubernetes, GKE
+      Virtual machines: Packer, GCP, VMware vSphere, VirtualBox, Vagrant
+      Serverless: OpenFaaS, Google Cloud Functions
+      Monitoring: Grafana, Graphite, Elasticsearch (ELK stack), GCP (Cloud Monitoring)
+      Testing: cucumber.js, Docker, checkov, InSpec
+      VCS: git
+      Other: Node.js, React.js, MDX, Renovate
   - title: Principal Engineer
     company: Sling TV, part of DISH Network
     date: June 2017 - August 2018
@@ -111,6 +144,11 @@ experience:
       - Created an nginx reverse proxy to support dynamic review environments (a different environment per feature branch)
       - Created a framework for a microfrontend admin portal in React/Redux
       - Contributed to design/vision/process discussions for the organization
+    technologies:
+      Frontend: React.js, Redux, JavaScript, styled-components
+      Testing: Selenium Grid, Cypress, Cucumber.js, Newman, Jest, WebdriverIO, visual regression testing
+      DevOps: GitLab CI, shell scripts, AWS, Nginx, Docker
+      Other: Yeoman
   - title: Developer
     company: Manheim, a Cox Automotive company
     date: January 2017 - May 2017
